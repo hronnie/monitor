@@ -22,6 +22,7 @@ mvn clean install
 You can find the generated jar in the target directory: monitor-1.0-jar-with-dependencies.jar 
 You need to use the application host URL as the 
 first argument of the command
-----------------------------
 Example: 
+```
 java -jar [project dir]/target/monitor-1.0-jar-with-dependencies.jar http://mydomain.com/appname
+```
